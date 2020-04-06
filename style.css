@@ -123,6 +123,7 @@ a {
 
 .show-content {
   align-self: flex-start;
+  text-shadow: rgb(185, 177, 177) 0px 11px 14px;
 }
 
 .section-a .container p {
