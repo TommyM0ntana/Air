@@ -92,15 +92,13 @@ a {
   font-size: 100px;
 }
 
-/* .section-a {
-  margin: 30px;
-  padding: 30px;
-  width: 90%;
-} */
+.section-a {
+  position: relative;
+}
 .section-a .container img {
   width: 500px;
   z-index: 0;
-  position: relative;
+  position: absolute;
 }
 
 /* .section-a .container img.back-img {
@@ -124,6 +122,7 @@ a {
 .show-content {
   align-self: flex-start;
   text-shadow: rgb(185, 177, 177) 0px 11px 14px;
+  margin-bottom: 100px;
 }
 
 .section-a .container p {
@@ -559,6 +558,8 @@ a {
   p,
   h2 {
     display: none;
+  }
+  .section-a .container {
   }
   .section-c h3 {
     font-family: Popping;

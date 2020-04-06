@@ -51,9 +51,13 @@
 <!-- SHOWCASE -->
 
 <div class="section-a">
-  <div class="container">
+  
+  <div class="container" >
+     <img class="rellax" data-rellax-speed="2" src="img/front4.png" >
+<div>
 
-     <img src="img/front4.png" alt="">
+</div>
+     <img class="rellax" data-rellax-speed="2" src="img/front4.png" >
      
     <div class="show-content">
      <h1>Buy.</h1>
@@ -74,12 +78,12 @@
       <h3>2020</h3>
      </div>
  <div>
-   <img src="img/small1.png" alt="">
+   <img  src="img/small1.png"data-rellax-speed="1" alt="">
    <h3>2020</h3>
    <p>White / University Red — Black</p>
  </div>
  <div>
-    <img src="img/small2.png" alt="">
+    <img data-rellax-speed="1" src="img/small2.png" alt="">
     <h3>2020</h3>
     <p>Metallic Silver Green Glow-Black</p>
   </div>
@@ -213,13 +217,25 @@
   </div>
 </footer>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha256-+xf9aJnHocnmrigq2hIDJGBSAnJdF5NH+Ooe5J2PHiI=" crossorigin="anonymous"></script>
     <script>
         document
           .querySelector(".menu-btn")
           .addEventListener("click", () =>
             document.querySelector(".menu-left").classList.toggle("show")
           );
+        
+      </script>
+
+      <script>
+       var rellax = new Rellax('.rellax', {
+    speed: 6,
+    center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
       </script>
   </body>
 </html>
