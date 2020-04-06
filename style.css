@@ -198,7 +198,7 @@ a {
   grid-template-columns: repeat(4, 1fr);
   padding: 80px 50px;
   background: #fff;
-  background-image: url(/Air/img/back-whitegray.png);
+  background-image: url(img/back-whitegray.png);
 }
 
 .section-b img {
@@ -245,7 +245,7 @@ a {
 
 .section-c {
   position: relative;
-  background: url(/Air/img/footer-back.jpg) no-repeat bottom center/cover;
+  background: url(img/footer-back.jpg) no-repeat bottom center/cover;
   height: 600px;
 }
 
