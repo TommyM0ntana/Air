@@ -463,6 +463,18 @@ a {
   }
 }
 
+@media screen and (max-width: 860px) {
+  .show-content .btn {
+    display: none;
+  }
+  .section-a .container p {
+    display: none;
+  }
+  .section-a .container {
+    margin-bottom: 90px;
+  }
+}
+
 @media (max-width: 800px) {
   .section-c h3 {
     font-size: 50px;
@@ -509,6 +521,9 @@ a {
     grid-template-columns: repeat(1, 1fr);
     padding-left: 50px;
   }
+  .show-content .btn {
+    display: unset;
+  }
   .section-c h3 {
     font-size: 30px;
     padding: 20px 10px 10px 10px;
@@ -525,6 +540,7 @@ a {
   .section-a .container h2 {
     font-size: 13px;
     color: #000;
+    margin-bottom: 20px;
   }
   .section-a .container img {
     width: 300px;
@@ -557,7 +573,7 @@ a {
   .section-a .container h1,
   p,
   h2 {
-    display: none;
+    padding: 5px;
   }
   .section-a .container {
   }
