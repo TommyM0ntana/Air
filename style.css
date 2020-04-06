@@ -558,10 +558,21 @@ a {
   .footer-down ul li {
     margin-right: 10px;
   }
+  .section-a .container h1 {
+    font-size: 40px;
+    line-height: 30px;
+    margin-left: 30px;
+  }
+  .section-a .container h2 {
+    display: none;
+  }
 
   .show-content .btn {
-    padding: 7px 15px;
+    /* padding: 7px 15px;
     border-radius: 18px 25px;
+    margin-top: 40px;
+    margin-left: 30px; */
+    display: none;
   }
   .section-b {
     grid-template-columns: repeat(1, 1fr);
@@ -589,7 +600,8 @@ a {
   }
 
   .section-a .container img {
-    width: 230px;
+    width: 220px;
+    margin-top: 10px;
   }
 
   .section-footer .social {
@@ -598,9 +610,15 @@ a {
 
   .section-b {
     grid-gap: 2rem;
+    margin-top: -177px;
+    align-items: center;
+    justify-content: center;
   }
   .section-b .shopping {
     margin-left: 0px;
+  }
+  .section-b .btn-shop {
+    margin-left: 30px;
   }
 }
 
