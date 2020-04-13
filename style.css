@@ -144,9 +144,12 @@ a {
   border-radius: 30px 40px;
   font-weight: bold;
   text-transform: uppercase;
+  z-index: 0;
+  cursor: pointer;
+  position: absolute;
 }
 .show-content .btn:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   /* background: transparent;
   padding: 15px 25px;
   border-radius: 50px 30px;
@@ -221,12 +224,14 @@ a {
 .section-b .btn-shop {
   background: transparent;
   color: #000;
-
   padding: 8.33333px 50px;
   margin: 20px 0 0;
   border: 2px solid #000;
   font-weight: bold;
   text-transform: uppercase;
+}
+.section-b .btn-shop:hover {
+  opacity: 0.7;
 }
 
 .section-b .shopping {
@@ -396,7 +401,7 @@ a {
   padding: 10px 10px;
   color: white;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
 .footer-down .pos {
@@ -461,11 +466,15 @@ a {
   .section-b {
   }
 }
-
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 900px) {
   .show-content .btn {
     display: none;
   }
+
+@media screen and (max-width: 860px) {
+  /* .show-content .btn {
+    display: none;
+  } */
   .section-a .container p {
     display: none;
   }
@@ -520,9 +529,9 @@ a {
     grid-template-columns: repeat(1, 1fr);
     padding-left: 50px;
   }
-  .show-content .btn {
+  /* .show-content .btn {
     display: unset;
-  }
+  } */
   .section-c h3 {
     font-size: 30px;
     padding: 20px 10px 10px 10px;
@@ -544,9 +553,6 @@ a {
   .section-a .container img {
     width: 500px;
   }
-
-
-  
 
   .section-b {
     grid-template-columns: repeat(2, 1fr);
